@@ -4,4 +4,8 @@
 -- | 302750   |
 -- +----------+
 
+.mode columns
+.headers on
 
+SELECT count(*)
+FROM reviews;
